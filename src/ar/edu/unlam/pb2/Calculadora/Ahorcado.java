@@ -28,21 +28,50 @@ public class Ahorcado {
 
 		switch (opcion) {
 		case 1:
-			resultado = a * b;
 			
+
 			break;
 		case 2:
-			resultado = a - b;
+			resultado =Ahorcado.resta(a, b);
 			break;
 		case 3:
-			resultado = a / b;
+			
 			break;
 		case 4:
-			resultado = a + b;
+			resultado = Ahorcado.suma(a, b);;
 			break;
 
 		}
-		
+
 		System.out.println("El resultado es " + resultado.toString());
 	}
+
+	private static Integer suma(Integer a, Integer b) {
+
+		Integer resultado;
+
+		resultado = a + b;
+
+		return resultado;
+	}
+	
+	private static Integer resta(Integer a, Integer b) {
+
+		Integer resultado;
+
+		resultado = a - b;
+
+		return resultado;
+	}
+	
+	
+	/*respuestas:
+	
+	1) En el segundo push lo que sucedio fue que cuando quisimos realizarlo nos tiro un error por estar mal parado en el directorio.
+	
+	2) Antes de realizar el push lo que hicimos fue agregar los cambios realizados con el comando "git add ." y luego utilizamos el comando "git commit -m "second commit"", para luego usar el "git push".
+	
+	
+	
+	/*
 }
