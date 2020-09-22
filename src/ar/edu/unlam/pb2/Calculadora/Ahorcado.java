@@ -27,15 +27,15 @@ public class Ahorcado {
 		b = teclado.nextInt();
 
 		switch (opcion) {
-		case 1: resultado = a+b;
+		case 1: //resultado = a+b;
 		break;
 		case 2:
-			resultado = a-b;
+			//resultado = a-b;
 		break;
 		case 3:
-			resultado=a/b;
+			//resultado=a/b;
 		break;
-		case 4: resultado=a*b;
+		case 4: //resultado=a*b;
 		break;
 		case 5: break;
 		}
