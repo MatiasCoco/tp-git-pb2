@@ -28,14 +28,14 @@ public class Ahorcado {
 
 		switch (opcion) {
 		case 1:
-			resultado = a * b;
+			multiplicar(a,b);
 			
 			break;
 		case 2:
 			resultado = a - b;
 			break;
 		case 3:
-			resultado = a / b;
+			dividir(a,b);
 			break;
 		case 4:
 			resultado = a + b;
@@ -45,4 +45,11 @@ public class Ahorcado {
 		
 		System.out.println("El resultado es " + resultado.toString());
 	}
+	public static int multiplicar(int a,int b ) {
+		return a*b;
+	}
+	public static int dividir(int a,int b ) {
+		return a/b;
+	}
+	
 }
